@@ -3,9 +3,9 @@ USE readyassist;
 CREATE TABLE Candidates
 (
 id int auto_increment not null primary key,
-candidate_name varchar(30) null,
-candidate_email varchar(50) null,
-candidate_mob int not null primary key
+Candidate_name varchar(30) null,
+Candidate_email varchar(50) null,
+Candidate_mob int not null primary key
 );
 insert into Candidates(id,candidate_name,candidate_email,candidate_mob) values('1','stepin','stepinjegan@gmail.com','8072828644');
 CREATE TABLE Training 
